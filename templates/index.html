@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOSTEL PERMISSION SYSTEM</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container mt-4">
+
+    <h2 class="text-center text-primary">HOSTEL PERMISSION SYSTEM</h2>
+
+    <form method="POST" class="card p-4 shadow">
+
+        <input class="form-control mb-2" name="student_name" placeholder="Student Name" required>
+
+        <input class="form-control mb-2" name="branch" placeholder="Branch" required>
+
+        <input class="form-control mb-2" name="year" placeholder="Year">
+
+        <input class="form-control mb-2" name="hostel_no" placeholder="Hostel Number">
+
+        <input class="form-control mb-2" name="room_no" placeholder="Room Number">
+
+        <input class="form-control mb-2" name="student_no" placeholder="Student Mobile Number">
+
+        <input class="form-control mb-2" name="parent_no" placeholder="Parent Mobile Number">
+
+        <label>Outgoing Date</label>
+        <input type="date" class="form-control mb-2" name="outgoing_date">
+
+        <label>Incoming Date</label>
+        <input type="date" class="form-control mb-2" name="incoming_date">
+
+        <textarea class="form-control mb-2" name="reason" placeholder="Reason" required></textarea>
+
+        <select class="form-control mb-2" name="emergency_level">
+            <option>Low</option>
+            <option>Medium</option>
+            <option>High</option>
+        </select>
+
+        <label>
+            <input type="checkbox" name="emergency" value="YES">
+            Emergency Request
+        </label>
+
+        <button class="btn btn-primary mt-3">Submit</button>
+
+    </form>
+
+    {% if message %}
+        <div class="alert alert-success mt-3 text-center">
+            {{ message }}
+        </div>
+    {% endif %}
+
+</div>
+
+</body>
+</html>
