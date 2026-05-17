@@ -4,26 +4,25 @@ A web-based Hostel Permission Management System developed using Flask and SQLite
 
 The system allows students to submit leave requests online, while Admin and Chief Rector can manage, approve, reject, search, and monitor requests efficiently through dedicated dashboards.
 
----
+
 
 # 🚀 Features
 
-✅ Student Leave Request Form  
-✅ Admin Login System  
-✅ Chief Rector Login System  
-✅ Secure Session Management  
-✅ Approve / Reject Requests  
-✅ Dashboard with Counters  
-✅ Search Student Requests  
-✅ Filter by Status  
-✅ Print Permission Support  
-✅ SQLite Database Integration  
-✅ Responsive Bootstrap UI  
-✅ Duplicate Request Prevention
+- Student Leave Request Form
+- Admin Login System
+- Chief Rector Login System
+- Secure Session Management
+- Approve / Reject Requests
+- Dashboard with Counters
+- Search Student Requests
+- Filter by Status
+- Print Permission Support
+- SQLite Database Integration
+- Responsive Bootstrap UI
+- Duplicate Request Prevention.
 
----
 
-# 🛠 Technologies Used
+#  Technologies Used
 
 - Python
 - Flask
@@ -32,20 +31,19 @@ The system allows students to submit leave requests online, while Admin and Chie
 - CSS3
 - Bootstrap 5
 
----
 
-# 👨‍💻 Modules
+#  Modules
 
-## 👨‍🎓 Student Module
+##  Student Module
 - Submit hostel leave requests
 - Enter personal and emergency details
 
-## 👨‍💼 Admin Module
+##  Admin Module
 - View all submitted requests
 - Monitor request status
 - Dashboard analytics
 
-## 👨‍🏫 Chief Rector Module
+##  Chief Rector Module
 - Approve / Reject requests
 - Search student records
 - Filter requests by status
@@ -71,7 +69,6 @@ HOSTELPERMISSION/
 │   └── style.css
 ```
 
----
 
 # ▶️ How to Run
 
@@ -105,7 +102,6 @@ python app.py
 http://127.0.0.1:5000
 ```
 
----
 
 # 🔐 Login Credentials
 
@@ -123,7 +119,6 @@ Username: chief
 Password: chief123
 ```
 
----
 
 # 📌 Future Enhancements
 
@@ -133,13 +128,31 @@ Password: chief123
 - Cloud Database Integration
 - Mobile Application Support
 
----
 
 # 💡 Project Objective
 
 The main objective of this project is to reduce manual paperwork and simplify the hostel leave approval process using a digital management system.
 
----
+
+# Screenshots
+
+## Login Page
+![Login](screenshots/login.png)
+
+## Application Form
+![Form](screenshots/form.png)
+
+## Admin Panel
+![Admin](screenshots/admin.png)
+
+## Chief Panel
+![Chief](screenshots/chief.png)
+
+
+# ✅ Final Output
+
+The system successfully manages hostel leave requests digitally with role-based access for Admin and Chief Rector using Flask and SQLite.
+
 
 # 👩‍💻 Developed By
 
